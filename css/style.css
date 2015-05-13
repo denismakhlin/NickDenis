@@ -1,0 +1,40 @@
+#app-logo {
+    display: block;
+    margin: auto;
+}
+
+#p-index1 {
+    text-align: center;
+}
+
+#welltab {
+    width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: -4%;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+}
+#hr1 {
+    border-top: 1px solid grey;
+}
+
+.input-group {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+#test {
+    margin-top: 10px;
+}
+
+
+
