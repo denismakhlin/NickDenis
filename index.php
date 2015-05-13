@@ -12,6 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         // Hi Denis!!!!!! <3
+        //I love San Francisco and I miss Ikes sandwiches
         ?>
     </body>
 </html>
