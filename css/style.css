@@ -15,7 +15,7 @@
     background: white;
     border: 1px solid grey;
     border-radius: 50px;
-    margin-top: 100px;
+    margin-top: 15px;
 }
 
 .btn {
@@ -36,5 +36,28 @@
     margin-top: 10px;
 }
 
+#a1 {
+    text-align: center;
+}
 
+#a2 {
+    text-decoration: none;
+}
 
+#imgmainpage {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+}
+
+#registerbutton {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#nodeco {
+    text-decoration: none;
+}
