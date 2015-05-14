@@ -17,13 +17,12 @@ and open the template in the editor.
         <div id="welltab" class="well well-lg">
             <img id="app-logo" src="img/app-logo.jpg">
 
-            <p id="p-index1">Welcome to Pit Stop © for App Academy. Login and Register Below</p>
+            <p id="p-index1">Welcome to Pit Stop for App Academy. Login and Register Below</p>
 
             <hr id="hr1">
         <div class="row">
-            
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Email (Optional)" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
             </div>
             
             <div class="input-group" id="test">
@@ -44,12 +43,14 @@ and open the template in the editor.
                         border-radius: 10px;
                         font-size: 15px;
                         border: 1px solid grey;
-                        "><b>Login</b></button></a>
+                        "><b>Register</b></button></a>
             </div>
-            <p><a href="registerpage.php" id="registerbutton">Register?</a></p>
+            <p><a id="registerbutton" href="index.php">Back To Login</a></p>
         </div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
+
+
 
