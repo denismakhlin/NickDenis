@@ -38,7 +38,7 @@ and open the template in the editor.
         <div id="welltab" class="well well-lg">
             <img id="app-logo" src="img/app-logo.jpg">
 
-            <p id="p-index1">Welcome to Pit Stop © for App Academy. Login and Register Below</p>
+            <p id="p-index1">Welcome to Pit Stop © for App Academy. Login and Register Belo</p>
 
             <hr id="hr1">
             
