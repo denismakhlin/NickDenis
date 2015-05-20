@@ -13,6 +13,7 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
     </head>
+    <a href="mainpage.php">Main</a>
     <body>
         <div id="welltab" class="well well-lg">
             <img id="app-logo" src="img/app-logo.jpg">

@@ -8,10 +8,16 @@
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
     </head>
     <body>
-        
-        <nav class="navbar navbar-default">
+        <div id="nav">
+        <nav class="navbar navbar-default" id="nav1">
+            <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+        </nav>  
+    </div>
+        <nav class="navbar navbar-default navbar-fixed-bottom" id="nav2">
+            <div class="container">
+                ...
+            </div>
         </nav>
-        
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
