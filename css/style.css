@@ -62,11 +62,105 @@
     text-decoration: none;
 }
 
-#nav {
-    background-color: red;
-
+#nav1 {
+    border-color: red;
+    border-radius: 0px;
+    border-right: 0px;
+    margin-bottom: 0px;
+    border-bottom-width: 20px;
 }
 
 #nav2 {
+    border-color: red;
+    border-radius: 0px;
+    border-right: 0px;
+    
+}
+
+#russia {
+    float: right;
+}
+
+img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+    float: right;
+    height: 5000px;
+    border-width: thin; 
+    background-color: #f8f8f8;
+    border-bottom: 1px solid red;
+    width: 200px;
+}
+
+#h1mainpage {
+    text-align: center;
+    font-family: Impact;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+body {
+    overflow:hidden;
     background-color: red;
+}
+
+#invline {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#invline2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#invline3 {
+    text-align: center;
+    font-family: Impact;
+    font-size: 35px;
+   -webkit-text-fill-color: red;; 
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+
+#divinvline {
+    border-bottom: 1px solid red;
+}
+
+.panel-heading {
+    text-align: center;
+    font-size: 15px;
+}
+
+#charttext {
+    text-align: center;
+}
+
+table {
+    border-bottom: 1px solid red;
+}
+
+#footerdiv {
+    border: 1px solid black;
+}
+
+#h2main {
+    text-align: center;
+}
+
+#h2main:hover {
+    transition: 1s;
+    color: red;
+}
+
+#h1main {
+    text-align: center;
 }

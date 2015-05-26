@@ -32,7 +32,7 @@ and open the template in the editor.
             </div>
             
             <div class="input-group" id="test">
-                <input type="text" class="form-control" name="username" placeholder="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" name="username" placeholder="Username (First & Last Name)" aria-describedby="basic-addon1">
             </div>
 
             <div class="input-group" id="test">
