@@ -16,8 +16,7 @@ require_once(__DIR__ . '../controller/create-db.php');
 //This connects the footer.php page to this page
 require_once(__DIR__ . '/view/footer.php');
 
-//this connects read-posts page to the index page 
-require_once(__DIR__ . "/controller/read-posts.php");
+
 ?>
 <!DOCTYPE html>
 <!--
@@ -34,6 +33,7 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
     </head>
+<!--    <a href="mainpage.php">Main</a>-->
     <body>
         <div id="welltab" class="well well-lg">
             <img id="app-logo" src="img/app-logo.jpg">
@@ -69,7 +69,7 @@ and open the template in the editor.
                         border: 1px solid grey;
                         "><b>Login</b></button></a>
             </div>
-            <p><a href="view/register-form.php" id="registerbutton">Register?</a></p>
+            <p><a href="view/register-form.php" id="registerbutton">Register</a></p>
         </div>
        </form>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

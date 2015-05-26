@@ -16,15 +16,15 @@ if ($query->num_rows == 1) {
 
     if ($row["password"] === crypt($password, $row["salt"])) {
         $_SESSION["authenticated"] = true;
-header('Location: http://localhost/NickDenis/index.php');
+header('Location: http://localhost/NickDenis3/mainpage.php');
         echo '<p>Login Successful</p>';
         
     } else {
-header('Location: http://localhost/NickDenis/index.php');
+header('Location: http://localhost/NickDenis3/mainpage.php');
         echo '<p>Invalid Username/Password</p>';
     }
 } else {
-header('Location: http://localhost/NickDenis/index.php');
+header('Location: http://localhost/NickDenis3/mainpage.php');
     echo '<p>Invalid Username/Password,</p>';
 }
  
