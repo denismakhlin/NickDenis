@@ -3,9 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/NickDenis3/controller/create-db.php</file>
-            <file>file:/C:/xampp/htdocs/NickDenis3/model/config.php</file>
-            <file>file:/C:/xampp/htdocs/NickDenis3/index.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/controller/login-user.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/controller/create-user.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/controller/logout-user.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/controller/create-db.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/controller/create-post.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/model/config.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/login.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/controller/login-verify.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/model/Database.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/view/login-form.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/index.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/controller/read-posts.php</file>
+            <file>file:/C:/xampp/htdocs/NickDenis/</file>
         </group>
     </open-files>
 </project-private>
