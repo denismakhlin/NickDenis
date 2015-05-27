@@ -3,6 +3,7 @@
         <title>Pit Stop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="2" >
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
@@ -10,7 +11,7 @@
     <body>
         <div id="nav">
             <nav class="navbar navbar-default" id="nav1">
-                 
+                
                 <img src="img/PitStop.png" style="height: 50px; display: block; margin: auto;">
                                
             </nav>  
