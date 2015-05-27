@@ -164,3 +164,32 @@ table {
 #h1main {
     text-align: center;
 }
+
+
+#post{
+    border: 5px solid red;
+    width: 30%; 
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightcoral;
+    
+    
+}
+
+#jumbotron {
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#textarea1 {
+}
+
+#textarea2 {
+    
+}
+
+#button1 {
+    
+}

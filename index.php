@@ -1,6 +1,20 @@
-<?php
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    </head>
+<!--    <a href="mainpage.php">Main</a>-->
+    <body>
+        <?php
 //links cofig file here
 require_once(__DIR__ . "/model/config.php");
+
 //This connects the header.php page to this page
 require_once(__DIR__ . '/controller/login-verify.php');
 
@@ -15,26 +29,7 @@ require_once(__DIR__ . '../controller/create-db.php');
 
 //This connects the footer.php page to this page
 require_once(__DIR__ . '/view/footer.php');
-
-
 ?>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="css/style.css">
-        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-    </head>
-<!--    <a href="mainpage.php">Main</a>-->
-    <body>
         <div id="welltab" class="well well-lg">
             <img id="app-logo" src="img/app-logo.jpg">
 
