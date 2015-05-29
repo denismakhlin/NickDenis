@@ -89,11 +89,21 @@ img {
 .verticalLine {
     border-left: thick solid #ff0000;
     float: right;
-    height: 5000px;
+    height: 530px;
     border-width: thin; 
     background-color: #f8f8f8;
-    border-bottom: 1px solid red;
     width: 200px;
+    overflow:hidden;
+}
+
+.verticalLine2 {
+    border-right: thick solid #ff0000;
+    float: left;
+    height: 530px;
+    border-width: thin; 
+    background-color: #f8f8f8;
+    width: 200px;
+    overflow:hidden;
 }
 
 #h1mainpage {
@@ -101,12 +111,8 @@ img {
     font-family: Impact;
 }
 
-.jumbotron {
-    background-color: transparent;
-}
-
 body {
-    overflow:hidden;
+    overflow-y: hidden;
     background-color: red;
 }
 
@@ -148,10 +154,6 @@ table {
     border-bottom: 1px solid red;
 }
 
-#footerdiv {
-    border: 1px solid black;
-}
-
 #h2main {
     text-align: center;
 }
@@ -163,24 +165,26 @@ table {
 
 #h1main {
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
 #post{
+    display: block;
     border: 5px solid red;
     width: 30%; 
     margin: auto;
-    border-radius: 10px;
+    border-radius: 30px;
     text-align: center;
-    background-color: lightcoral;
-    
-    
+    background-color: lightcoral;  
+    margin-bottom: 20px;
+    overflow: auto;
+    width: 500px;
 }
 
-#jumbotron {
-    color: white;
-    padding-left: 0px;
-    padding-right: 0px;
+.jumbotron {
+    height: 700px;
+    overflow: scroll;
 }
 
 #textarea1 {
@@ -193,3 +197,51 @@ table {
 #button1 {
     
 }
+
+#textarea3 {
+    margin-left: -100px;
+    height: 200px;
+}
+
+#textarea4 {
+    margin-left: -100px;
+}
+
+#row1 {
+    width: 400px;
+}
+
+#buttononchat {
+    margin-left: -290px;
+}
+
+#rightcenter {
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+
+#rightcenter:hover {
+    color: lightcoral;
+    text-align: center;
+    transition: 1s;
+}
+
+#divalert {
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 50px;
+}
+
+#titlepost {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#rightcenter1 {
+    margin-top: 180px;
+    font-size: 25px;
+    text-align: center;
+}
+
+

@@ -24,6 +24,7 @@ $query = $_SESSION["connection"]->query("INSERT INTO users SET "
 //this is when you register it will redirect you to the index
 if ($query) {
     echo "Sucessfully Created User: $username";
+    $_SESSION["name"] = $username;
     header('Location: http://localhost/NickDenis3/index.php');
 
     //this will tell you the error if there is one

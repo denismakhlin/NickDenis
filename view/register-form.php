@@ -11,12 +11,13 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>PitStop | For App Academy</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="../css/style.css">
         <link type="text/css" rel="stylesheet" href="../css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="icon" href="img/PitstopIcon.png" type="image/png">
     </head>
     <body>
         <div id="welltab" class="well well-lg">

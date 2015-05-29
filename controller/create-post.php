@@ -6,9 +6,10 @@ require_once(__DIR__ . "/../model/config.php");
 //this filters the text in it so therecant be innapropriate things
 $title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
 $post = filter_input(INPUT_POST, "post", FILTER_SANITIZE_STRING);
+$username = $_SESSION["name"];
 
 //this send the data you put in the title and post to the database
-$query = $_SESSION["connection"]->query("INSERT INTO post SET title = '$title', post = '$post'");
+$query = $_SESSION["connection"]->query("INSERT INTO post SET title = '$title', post = '$post', username = '$username'");
 
 //this if for if you submit it will redirect you to the index page
 if ($query) {
@@ -19,4 +20,3 @@ if ($query) {
 } else {
     echo "<p>" . $_SESSION["connection"]->error . "</p>";
 }
-
